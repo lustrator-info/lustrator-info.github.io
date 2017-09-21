@@ -18,18 +18,18 @@ body {
     border-bottom: .05rem solid #e5e5e5;
   }
   /* Make the masthead heading the same height as the navigation */
-  .header h3 {
+  /* .header h3 {
     margin-top: 0;
     margin-bottom: 0;
     line-height: 3rem;
-  }
+  } */
   
   /* Custom page footer */
-  .footer {
+  /* .footer {
     padding-top: 1.5rem;
     color: #777;
     border-top: .05rem solid #e5e5e5;
-  }
+  } */
   
   /* Customize container */
   @media (min-width: 48em) {
@@ -45,6 +45,7 @@ body {
   .jumbotron {
     text-align: center;
     border-bottom: .05rem solid #e5e5e5;
+    margin-top: 1rem;
   }
   .jumbotron .btn {
     padding: .75rem 1.5rem;
@@ -77,4 +78,21 @@ body {
       border-bottom: 0;
     }
   }
-  
+  /* Small phones */
+  @media screen and (max-width: 500px) {
+    .header {
+      padding-bottom: .5rem;
+    }
+    .jumbotron {
+      margin-top: .5rem;
+    }
+    a.nav-link {
+      padding: .3rem .5rem;
+    }
+    h1.display-3 {
+      font-size: 2.5rem;
+    }
+    p.lead {
+      font-size: 1rem;
+    }
+  }
